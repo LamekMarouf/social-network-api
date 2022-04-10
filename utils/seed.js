@@ -16,18 +16,17 @@ connection.once('open', async () => {
   // Create empty array to hold the users
   const users = [];
 
-  // Add const usernames = getRandomUsernames() within a for loop
   for (let i = 0; i < 10; i++) {
     const username = getRandomUsername();
     const email = `${username}@hotmail.com`;
     const thoughts = getRandomThought()
     const friends = getRandomFriend();
-
+    
     users.push({
       username,
       email,
       thoughts,
-      friends
+      friends,
   });
 }
 
