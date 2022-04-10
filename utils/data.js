@@ -92,8 +92,12 @@ const getRandomArrItem = (arr) => arr[Math.floor(Math.random() * arr.length)];
 const getRandomUsername = () =>
   `${getRandomArrItem(usernamesFirst)}${getRandomArrItem(usernamesSecond)}${Math.floor(Math.random() * (99 - 18 + 1) + 18)}`;
 
-  const getRandomThought = () =>
+const getRandomThought = () =>
   `${getRandomArrItem(randomThought)}`;
+
+const getRandomFriend = () =>
+  `${getRandomArrItem(usernamesFirst)}${getRandomArrItem(usernamesSecond)}${Math.floor(Math.random() * (99 - 18 + 1) + 18)}`;
+
   
-module.exports = { getRandomUsername, getRandomThought }
+module.exports = { getRandomUsername, getRandomThought, getRandomFriend }
 
