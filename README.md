@@ -12,4 +12,5 @@ This is a social network API that uses mongoDB, Mongoose, Node.js and Express.js
 ## Video Demonstration of the Social Network API
 
 The file has been compressed to a .zip file in order for me to upload it.
+
 [social-network-api-demo.zip](https://github.com/LamekMarouf/social-network-api/files/8460585/social-network-api-demo.zip)
